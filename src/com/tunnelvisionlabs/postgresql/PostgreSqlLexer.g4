@@ -474,6 +474,14 @@ YEAR				: [Yy][Ee][Aa][Rr];
 YES					: [Yy][Ee][Ss];
 ZONE				: [Zz][Oo][Nn][Ee];
 
+// The following *act* as non-reserved keywords, but only exist in the lexer due
+// to their context-sensitive use in parser rules.
+BUFFERS				: [Bb][Uu][Ff][Ff][Ee][Rr][Ss];
+COSTS				: [Cc][Oo][Ss][Tt][Ss];
+FORMAT				: [Ff][Oo][Rr][Mm][Aa][Tt];
+PUBLIC				: [Pp][Uu][Bb][Ll][Ii][Cc];
+TIMING				: [Tt][Ii][Mm][Ii][Nn][Gg];
+
 //
 // non-reserved keywords (cannot be function or type)
 //
